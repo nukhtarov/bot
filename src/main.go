@@ -13,8 +13,6 @@ import (
 	"strings"
 )
 
-var apiKey = "7f8a30aeac68f33da2fe6a39ae22ee12"
-
 var admins = []int{237286647, 162667568}
 
 func contains(s []int, e int) bool {
