@@ -22,5 +22,5 @@ jobs:
     - name: Run
       env: 
         TOKEN_VK: ${{ secrets.TOKEN_VK }}
-      run: go run -v ./src
+      run: nohup go run -v ./src &
 
