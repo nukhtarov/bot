@@ -20,5 +20,7 @@ jobs:
     - name: ENV
       run: export TOKEN_VK={{TOKEN_VK}}
     - name: Run
+      env: 
+        TOKEN_VK: ${{ secrets.TOKEN_VK }}
       run: go run -v ./src
 
